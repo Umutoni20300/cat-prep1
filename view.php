@@ -2,7 +2,7 @@
 <?php 
 if (isset($_GET['id'])) { 
 $get_id=$_GET['id']; 
-$conn=mysqli_connect("mysql","root","","schooldb"); 
+$conn=mysqli_connect("mysql","root","","schooldb"); // database connection
 $sql="SELECT * FROM tbl_student WHERE id=$get_id"; 
 $query=mysqli_query($conn,$sql) or die(mysqli_error($conn)); 
 if($query){ 
