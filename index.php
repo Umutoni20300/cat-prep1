@@ -11,7 +11,7 @@ lastname='$lastname',regno='$regno'";
 $quer =mysqli_query($dbconn,$sql); 
 header("location:table.php"); 
 } ?> 
-<!DOCTYPE html> <html> <head>  <title> Form to Register</title> 
+<!DOCTYPE html> <html> <head>  <title> Form to Register</title> //WELLL
 
 
         <div>
