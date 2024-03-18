@@ -1,2 +1,2 @@
 <?php
-echo"about";
+echo"about";;//display contets
